@@ -1,6 +1,5 @@
 body.html {
-	background: url(
-	https://lh3.googleusercontent.com/-e8ntd6lq9qM/WYYFlY_yA9I/AAAAAAAA2ms/NUykdfJm3_EftX_W8rKHA8fRzsCJ4nO7gCHMYBhgL/s1024/IMG_1547.JPG) no-repeat center center fixed; 
+	background: url("../images/zeilboten.jpg") no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

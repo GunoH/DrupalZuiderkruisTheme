@@ -21,7 +21,7 @@ body.html {
 	height: 140px;
 }
 #header > .section, .maintenance-page #header {
-	background-image: url("/sites/www.zuiderkruis.nl/themes/zuiderkruis/images/header_no_logo.jpg");
+	background-image: url("../images/header_no_logo.jpg");
 	background-repeat: no-repeat;
 	background-position: 0 bottom;
 	height: 140px;

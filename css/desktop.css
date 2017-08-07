@@ -248,7 +248,7 @@ a {
 	width: 680px;
 }
 #footer {
-	background: #05152C url(../images/footer_transparant.png);
+	background-color: rgba(0, 0, 0, 0.4);
 	
 	/*background: #05152C url(../images/footer_water.jpg);*/
 	/* min-height: 230px; */

@@ -1,19 +1,24 @@
 body.html {
-	background-color: #1C2C5F;
+	background: url("../images/zeilboten.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #333;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
-	margin: 0;
+	margin-top: 25px;
 }
 
 #pagetop {
-	background-color: #2c4696;
+	
+	/* background-color: #2c4696;*/
 }
 #pagemain, .maintenance-page #page {
-	background: #2c4696 linear-gradient(to bottom, #2c4696, #213470) repeat-x;
+	/* background: #2c4696 linear-gradient(to bottom, #2c4696, #213470) repeat-x; */
 }
 #pagebottom_nuevendisabledomdatdefooternuleegis {
-	background: #2c4696 linear-gradient(to bottom, #213470, #1c2c5f) repeat-x;
+	/* background: #2c4696 linear-gradient(to bottom, #213470, #1c2c5f) repeat-x;*/
 }
 
 #header {
@@ -21,7 +26,7 @@ body.html {
 	height: 140px;
 }
 #header > .section, .maintenance-page #header {
-	background-image: url("/sites/www.zuiderkruis.nl/themes/zuiderkruis/images/header_no_logo.jpg");
+	background-image: url("../images/header_no_logo.jpg");
 	background-repeat: no-repeat;
 	background-position: 0 bottom;
 	height: 140px;
@@ -243,8 +248,10 @@ a {
 	width: 680px;
 }
 #footer {
-	background: #05152C url(../images/footer_water.jpg);
-	min-height: 230px;
+	background-color: rgba(0, 0, 0, 0.4);
+	
+	/*background: #05152C url(../images/footer_water.jpg);*/
+	/* min-height: 230px; */
 	color: #999999;
 	font-size: 12px;
 }
@@ -258,7 +265,7 @@ a {
 }
 
 #pagebottom {
-	background: #2C4696 linear-gradient(to bottom, #213470, #1c2c5f) repeat-x;
+	/*background: #2C4696 linear-gradient(to bottom, #213470, #1c2c5f) repeat-x;*/
 }
 #block-system-main-menu {
 	padding-top: 0;

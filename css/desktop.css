@@ -248,8 +248,10 @@ a {
 	width: 680px;
 }
 #footer {
-	background: #05152C url(../images/footer_water.jpg);
-	min-height: 230px;
+	background: #05152C url(../images/footer_transparant.png);
+	
+	/*background: #05152C url(../images/footer_water.jpg);*/
+	/* min-height: 230px; */
 	color: #999999;
 	font-size: 12px;
 }

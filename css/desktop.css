@@ -1,25 +1,24 @@
 body.html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #333;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
 	margin-top: 25px;
 }
-
+body.html.background-1 {
+	background: url("../images/background-1.jpg") no-repeat center center fixed;
+}
+body.html.background-2 {
+	background: url("../images/background-2.jpg") no-repeat center center fixed;
+}
 #pagetop {
 
 	/* background-color: #2c4696;*/
 }
 #pagemain, .maintenance-page #page {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-#pagemain.background-1, .maintenance-page #page .background-1 {
-	background: url("../images/background-1.jpg") no-repeat center center fixed;
-}
-#pagemain.background-2, .maintenance-page #page .background-2 {
-	background: url("../images/background-2.jpg") no-repeat center center fixed;
 }
 #pagebottom_nuevendisabledomdatdefooternuleegis {
 	/* background: #2c4696 linear-gradient(to bottom, #213470, #1c2c5f) repeat-x;*/

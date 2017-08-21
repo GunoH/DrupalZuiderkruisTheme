@@ -161,5 +161,6 @@ jQuery(window).scroll(function() {
   var scrolledY = jQuery(window).scrollTop();
   jQuery('#main-wrapper').css('background-position', 'center ' + ((scrolledY)) + 'px');
 });
+jQuery('#pagemain').addClass(Math.random() > 0.5 ? 'background-1' : 'background-2');
 </script>
 

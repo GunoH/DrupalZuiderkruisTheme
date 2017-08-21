@@ -54,6 +54,8 @@ function zuiderkruis_preprocess_html(&$vars) {
         drupal_add_js('misc/form.js');
         drupal_add_js('misc/collapse.js');
     }
+
+    $vars['classes'] = array_rand(array('background-1', 'background-2'));
 }
 
 ?>

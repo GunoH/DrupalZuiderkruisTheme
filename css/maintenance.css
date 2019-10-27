@@ -1,0 +1,17 @@
+.maintenance-page #container {
+    background-color: #ffffff;
+}
+.maintenance-page #container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.maintenance-page #site-name {
+    display: none;
+}
+.maintenance-page #page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

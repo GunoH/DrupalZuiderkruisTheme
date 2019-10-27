@@ -1,0 +1,24 @@
+#block-quicknavigation span {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.snel-naar-onderdeel, .onderdeel {
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+#block-quicknavigation img, .snel-naar-onderdeel img, .onderdeel img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 650px) {
+    #block-quicknavigation {
+        display: none;
+    }
+}

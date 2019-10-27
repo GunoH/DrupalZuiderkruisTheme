@@ -1,0 +1,7 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+
+/** Sets the placeholder value for the search box. */
+function zuiderkruis_form_search_block_form_alter(&$form, FormStateInterface $form_state) {
+    $form['keys']['#attributes']['placeholder'] = t('Search...');
+}

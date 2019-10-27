@@ -1,0 +1,15 @@
+.webform-submission-form label:not(.option),
+.webform-submission-data label:not(.option) {
+    display: block;
+    font-weight: bold;
+}
+
+.webform-submission-form input.form-text,
+.webform-submission-form input.form-email,
+.webform-submission-form input.form-tel {
+    width: 100%;
+}
+.webform-submission-form input#edit-huisnummer-toevoeging,
+.webform-submission-form input#edit-postcode {
+    width: unset;
+}

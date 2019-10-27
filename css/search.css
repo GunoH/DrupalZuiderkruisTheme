@@ -1,0 +1,39 @@
+#block-search-form {
+    padding-top: 3px;
+}
+.region-search {
+    float: right;
+    background: none repeat scroll 0 0 #3399cc;
+    height: 30px;
+    width: 190px;
+    padding: 7px 0 3px 20px;
+}
+
+@media only screen and (max-width: 525px) {
+    .region-search {
+        display: none;
+    }
+}
+
+.region-search input.form-search {
+    border: 1px solid #cccccc;
+    color: #999999;
+    height: 16px;
+    line-height: 14px;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.region-search input.form-submit {
+    display: none;
+}
+#block-searchform {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.region-breadcrumb {
+    /* Restrict width so the contextual-links do not overlay the search widget. */
+    max-width: 680px;
+}

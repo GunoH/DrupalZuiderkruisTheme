@@ -1,0 +1,16 @@
+.layout--threecol-section .layout__region--first > div {
+    margin-right: 7px;
+}
+.layout--threecol-section .layout__region--second > div {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.layout--threecol-section .layout__region--third > div {
+    margin-left: 7px;
+}
+.layout--threecol-section .layout__region a {
+    color: #19358d !important;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}

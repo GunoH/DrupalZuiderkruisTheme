@@ -218,3 +218,8 @@ iframe.map {
     max-width: 600px;
 }
 
+/* Hide superfluous node header on 403 page within webform */
+a[rel='bookmark'] {
+    display: none;
+}
+

@@ -1,0 +1,60 @@
+.view-upcoming-events {
+    margin-block-start: 2em;
+    margin-left: 1em;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 945px) {
+    .view-upcoming-events {
+        display: none;
+    }
+}
+
+.view-upcoming-events .views-table {
+    width: 90%;
+    margin-top: 1em;
+}
+
+.view-upcoming-events .views-table caption {
+    text-align: left;
+    font-size: 90%;
+}
+
+.upcoming-event td {
+    font-size: 90%;
+    padding: 5px 10px;
+    margin: 1px 0;
+    color: white;
+    background-image: none;
+    border-bottom: 1px solid white;
+}
+
+.upcoming-event.calendar-Leiding-Staf-Algemeen, .upcoming-event.calendar-Zuiderkruis-Algemeen {
+    background-color: #c7561e;
+} 
+
+.upcoming-event.calendar-Zuiderkruis-Landwerk {
+    background-color: #3c995b;
+}
+
+.upcoming-event.calendar-Zuiderkruis-Waterwerk {
+    background-color: #536ca6;
+}
+
+.agenda-link {
+    text-align: right;
+    margin-top: 0.5em;
+    width: 90%;
+}
+
+.agenda-link a {
+    color: #3399cc;
+    text-decoration: none;
+    transition: color 0.2s ease-out 0s;
+    font-style: italic;
+}
+
+.agenda-link a:hover {
+    color: #19358d;
+    text-decoration: underline;
+}

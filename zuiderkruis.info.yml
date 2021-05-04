@@ -1,10 +1,11 @@
 name: Zuiderkruis
 type: theme
 base theme: classy
-Description: "Zuiderkruis theme for Drupal 8"
+Description: "Zuiderkruis theme for Drupal 8/9"
 logo: images/logo_zk_wit.png
 package: custom
 core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
   - zuiderkruis/global-styling
 

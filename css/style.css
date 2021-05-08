@@ -78,12 +78,12 @@ h1, .content h2 {
 a {
     transition: color 0.2s ease-out 0s !important;
 }
-#block-zuiderkruis-content .node__content a, #content .content a {
+#block-zuiderkruis-content .node__content a, #content .content a, #content .sitemap a {
     color: #3399cc;
     transition: color 0.2s ease-out 0s;
     text-decoration: none;
 }
-#block-zuiderkruis-content .node__content a:hover, #content .content a:hover {
+#block-zuiderkruis-content .node__content a:hover, #content .content a:hover, #content .sitemap a:hover {
     color: #19358d;
     text-decoration: underline;
 }
@@ -107,7 +107,7 @@ a {
 #block-zuiderkruis-content .node__content ol, #block-zuiderkruis-content .node__content ul, #content .content ol, #content .content ul {
     margin-left: 0;
 }
-#block-zuiderkruis-content .node__content ul li, #content .content ul li {
+#block-zuiderkruis-content .node__content ul li, #content .content ul li, #content .sitemap ul li {
     background: url("../images/arrows/bullet-arrow_black.png") no-repeat 0 0;
     line-height: 16px;
     list-style: none outside none;
